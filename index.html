@@ -7,7 +7,90 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="container">
+        <div class="bubble-sort sort-block">
+          <h1>Bubble Sort</h1>
+          <div class="bubble-sort__demo-screen demo-screen"></div>
+          <div class="bubble-sort__line-heights-list line-heights-list"></div>
+          <div class="control">
+            <form action="">
+              <label>Number of Lines: </label>
+              <input class="bubble-sort__input" type="number" />
+            </form>
+            <button class="generate" type-of-sort="bubble-sort">
+              Generate
+            </button>
+            <button class="start" type-of-sort="bubble-sort">Start</button>
+            <button class="reset" type-of-sort="bubble-sort">Reset</button>
+          </div>
+        </div>
+
+        <div class="insertion-sort sort-block">
+          <h1>Insertion Sort</h1>
+          <div class="insertion-sort__demo-screen demo-screen"></div>
+          <div
+            class="insertion-sort__line-heights-list line-heights-list"
+          ></div>
+          <div class="control">
+            <form action="">
+              <label>Number of Lines: </label>
+              <input class="insertion-sort__input" type="number" />
+            </form>
+            <button class="generate" type-of-sort="insertion-sort">
+              Generate
+            </button>
+            <button class="start" type-of-sort="insertion-sort">Start</button>
+            <button class="reset" type-of-sort="insertion-sort">Reset</button>
+          </div>
+        </div>
+
+        <div class="quick-sort sort-block">
+          <h1>Quick Sort</h1>
+          <div class="quick-sort__demo-screen demo-screen"></div>
+          <div class="quick-sort__line-heights-list line-heights-list"></div>
+          <div class="control">
+            <form action="">
+              <label>Number of Lines: </label>
+              <input class="quick-sort__input" type="number" />
+            </form>
+            <button class="generate" type-of-sort="quick-sort">Generate</button>
+            <button class="start" type-of-sort="quick-sort">Start</button>
+            <button class="reset" type-of-sort="quick-sort">Reset</button>
+          </div>
+        </div>
+
+        <div class="merge-sort sort-block">
+          <h1>Merge Sort</h1>
+          <div class="merge-sort__demo-screen demo-screen"></div>
+          <div class="merge-sort__line-heights-list line-heights-list"></div>
+          <div class="control">
+            <form action="">
+              <label>Number of Lines: </label>
+              <input class="merge-sort__input" type="number" />
+            </form>
+            <button class="generate" type-of-sort="merge-sort">Generate</button>
+            <button class="start" type-of-sort="merge-sort">Start</button>
+            <button class="reset" type-of-sort="merge-sort">Reset</button>
+          </div>
+        </div>
+
+        <div class="gnome-sort sort-block">
+          <h1>Gnome Sort</h1>
+          <div class="gnome-sort__demo-screen demo-screen"></div>
+          <div class="gnome-sort__line-heights-list line-heights-list"></div>
+          <div class="control">
+            <form action="">
+              <label>Number of Lines: </label>
+              <input class="gnome-sort__input" type="number" />
+            </form>
+            <button class="generate" type-of-sort="gnome-sort">Generate</button>
+            <button class="start" type-of-sort="gnome-sort">Start</button>
+            <button class="reset" type-of-sort="gnome-sort">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
