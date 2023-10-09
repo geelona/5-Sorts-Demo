@@ -1,5 +1,10 @@
 import "../scss/style.scss";
-import { bubbleSortFuction } from "./bubble-sort-function";
+import { bubbleSortFuction } from "./sorts-function/bubble-sort-function";
+import { insertionSortFunction } from "./sorts-function/insertion-sort-function";
+import { quickSortFunction } from "./sorts-function/quick-sort-function";
+import { mergeSortFunction } from "./sorts-function/merge-sort-function"; 
+import { gnomeSortFunction } from "./sorts-function/gnome-sort-function";
+
 
 function lineToHtml(height, kindOfSort) {
   return `<div class="line line__${kindOfSort}" style="height: ${height}%;"></div>`
@@ -22,6 +27,18 @@ function StartButtonPressed(button) {
 
   if (kindOfSort == "bubble-sort") {
     bubbleSortFuction(lines, lineHeightsList);
+  }
+  else if (kindOfSort == "insertion-sort") {
+    insertionSortFunction(lines, lineHeightsList);
+  }
+  else if (kindOfSort == "quick-sort") {
+    quickSortFunction(lines, lineHeightsList);
+  }
+  else if (kindOfSort == "merge-sort") {
+    mergeSortFunction(lines, lineHeightsList);
+  }
+  else if (kindOfSort == "gnome-sort") {
+    gnomeSortFunction(lines, lineHeightsList);
   }
 }
 
