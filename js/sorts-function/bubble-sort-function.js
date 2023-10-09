@@ -17,6 +17,6 @@ export function bubbleSortFuction(lines, lineHeightsList) {
 
         }
       }
-    }, (50 * i) - lines.length);
+    }, 100);
   }
 }
