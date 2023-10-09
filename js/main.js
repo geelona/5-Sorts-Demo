@@ -17,15 +17,12 @@ function lineHeightsToHtml(kindOfSort) {
 function StartButtonPressed(button) {
   const kindOfSort = button.getAttribute("type-of-sort")
   const demoScreen = document.querySelector("." + kindOfSort + "__demo-screen");
+  const lineHeightsList = document.querySelector("." + kindOfSort + "__line-heights-list");
   const lines = demoScreen.querySelectorAll(".line__" + kindOfSort);
 
-  let heights = [];
-
-  lines.forEach((line) => {
-    heights.push(line.clientHeight);
-  })
-
-  bubbleSortFuction(heights);
+  if (kindOfSort == "bubble-sort") {
+    bubbleSortFuction(lines, lineHeightsList);
+  }
 }
 
 function ResetButtonPressed(button) {
