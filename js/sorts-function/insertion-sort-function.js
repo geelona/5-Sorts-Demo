@@ -24,6 +24,6 @@ export function insertionSortFunction(lines, lineHeightsList) {
 
         lines[j+1].style.height = key + "px";
         lineHeightsList.getElementsByTagName("div")[j+1].innerHTML = keyLineHeightList;
-      }, 100);
+      }, 100 * i);
     }
 }
