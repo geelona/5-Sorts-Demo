@@ -14,11 +14,13 @@ function partition(lines, lineHeightsList, low, high) {
   const pivot = lines[high].clientHeight;
   let i = low - 1;
 
+
   for (let j = low; j < high; j++) {
     if (lines[j].clientHeight < pivot) {
       i++;
       swap(lines, lineHeightsList, i, j);
     }
+
   }
 
   swap(lines, lineHeightsList, i + 1, high);
