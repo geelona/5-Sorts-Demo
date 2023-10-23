@@ -28,9 +28,9 @@ Sorting Algorithms
 The project includes implementations of the following sorting algorithms:
 
 Bubble Sort
-Selection Sort
 Insertion Sort
 Merge Sort
 Quick Sort
+Gnome Sort
 Usage
 You can interact with the demo to visualize how each sorting algorithm works. Explore the project in your browser and see how the algorithms compare in terms of performance and behavior.
