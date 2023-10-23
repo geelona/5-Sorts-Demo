@@ -27,10 +27,10 @@ Open your browser and navigate to http://localhost:3000 to view the sorting algo
 Sorting Algorithms
 The project includes implementations of the following sorting algorithms:
 
-Bubble Sort
-Insertion Sort
-Merge Sort
-Quick Sort
-Gnome Sort
+Bubble Sort,
+Insertion Sort,
+Merge Sort,
+Quick Sort,
+Gnome Sort.
 Usage
 You can interact with the demo to visualize how each sorting algorithm works. Explore the project in your browser and see how the algorithms compare in terms of performance and behavior.
