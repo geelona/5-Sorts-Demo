@@ -1,5 +1,7 @@
-Sorting Algorithms Demo
-This project demonstrates five different sorting algorithms implemented using Vite, a JavaScript build tool. You can use this project to visualize and understand how these sorting algorithms work.
+Sorting Algorithms Demo 
+
+This project demonstrates five different sorting algorithms implemented using Vite, a JavaScript build tool.
+You can use this project to visualize and understand how these sorting algorithms work.
 
 Getting Started
 Follow these steps to get the project up and running on your local machine:
